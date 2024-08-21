@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!--MENU HEADER-->
+  <div class="container-header">
+    <header>
+      <div class="logo">
+        <a href="#">Luca</a>
+      </div>
+      <nav id="nav">
+        <ul>
+          <li><a href="#home" onclick="select()">HOME</a></li>
+          <li><a href="#aboutme" onclick="select()">ABOUT ME</a></li>
+          <li><a href="#skills" onclick="select()">SKILLS</a></li>
+          <li><a href="#curriculum" onclick="select()">CURRICULUM</a></li>
+          <li><a href="#portfolio" onclick="select()">PORTFOLIO</a></li>
+          <li><a href="#contact" onclick="select()">CONTACT</a></li>
+        </ul>
+      </nav>
+      <div class="nav-responsive" onclick="showMenu()">
+          <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+  </div>
+
+  <!--HOME SECTION-->
+  <section id="home" class="home">
+    <div class="banner-content">
+      <div class="container-img">
+        <img src="img/Yo.jpg" alt="">
+      </div>
+      <h1>LUCA GINI</h1>
+      <h2>Advanced student of Systems Information Engineering</h2>
+      <div class="network">
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!--ABOUT ME SECTION-->
+  <section id="aboutme" class="aboutme">
+    <div class="section-content">
+      <h2>About Me</h2>
+      <p><span>Hello, I'm Luca Gini.</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, optio? Sequi maiores suscipit quasi quam autem soluta rerum quod nemo aliquam quia, eum corporis. Necessitatibus veniam delectus soluta ex minus.</p>
+      
+      <div class="row">
+        <!--Personal information-->
+        <div class="col">
+          <h3>Personal information</h3>
+          <ul>
+            <li>
+              <strong>Birthday</strong>
+              26-10-2001
+            </li>
+            <li>
+              <strong>Telephone</strong>
+              +54 9 3415449567
+            </li>
+            <li>
+              <strong>Email</strong>
+              luca.giniclc@gmail.com
+            </li>
+            <li>
+              <strong>Address</strong>
+              Rosario, Santa Fe, Argentina
+            </li>
+          </ul>
+        </div>
+
+        <!--Interests-->
+        <div class="col">
+          <h3>Interests</h3>
+          <div class="container-interests">
+            <div class="interest">
+              <i class="fa-solid fa-music"></i>
+              <span>MUSIC</span>
+            </div>
+            <div class="interest">
+              <i class="fa-solid fa-plane"></i>
+              <span>TRAVEL</span>
+            </div>
+            <div class="interest">
+              <i class="fa-solid fa-dumbbell"></i>
+              <span>EXERSICE</span>
+            </div>
+            <div class="interest">
+              <i class="fa-solid fa-tv"></i>
+              <span>SERIES</span>
+            </div>
+            <div class="interest">
+              <i class="fa-solid fa-car"></i>
+              <span>CARS</span>
+            </div>
+            <div class="interest">
+              <i class="fa-solid fa-book"></i>
+              <span>STUDY</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <button>
+        Download CV <i class="fa-solid fa-download"></i>
+        <span class="overlay"></span>
+      </button>
+    </div>
+  </section>
+
+  <!--SKILLS SECTION-->
+  <section id="skills" class="skills">
+    <div class="section-content">
+      <h2>Skills</h2>
+      <div class="row">
+        <!--Technical skills-->
+        <div class="col">
+          <h3>Technical Skills</h3>
+          <div class="skill">
+            <span>Python</span>
+            <div class="skill-bar">
+              <div class="progress">
+                <span>70%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>SQL</span>
+            <div class="skill-bar">
+              <div class="progress">
+                <span>85%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Typescript</span>
+            <div class="skill-bar">
+              <div class="progress">
+                <span>60%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Excel</span>
+            <div class="skill-bar">
+              <div class="progress">
+                <span>65%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Power BI</span>
+            <div class="skill-bar">
+              <div class="progress">
+                <span>50%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Agile</span>
+            <div class="skill-bar">
+              <div class="progress">
+                <span>70%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>English</span>
+            <div class="skill-bar">
+              <div class="progress">
+                <span>95%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Professional Skills-->
+        <div class="col">
+          <h3>Professional Skills</h3>
+          <div class="skill">
+            <span>Communication</span>
+            <div class="skill-bar">
+              <div class="progress">
+                <span>90%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Teamwork</span>
+            <div class="skill-bar">
+              <div class="progress">
+                <span>85%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Creativity</span>
+            <div class="skill-bar">
+              <div class="progress">
+                <span>85%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Dedication</span>
+            <div class="skill-bar">
+              <div class="progress">
+                <span>70%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Project Management</span>
+            <div class="skill-bar">
+              <div class="progress">
+                <span>80%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Work under pressure</span>
+            <div class="skill-bar">
+              <div class="progress">
+                <span>80%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--CURRICULUM SECTION-->
+  <section id="curriculum" class="curriculum">
+    <div class="section-content">
+      <h2>Curriculum</h2>
+      <div class="row">
+        <div class="col left">
+          <h3>Education</h3>
+          <div class="item left">
+            <h4>Ingeniería en Sistemas de Información</h4>
+            <span class="house">Universidad Tecnológica Nacional FRRo</span>
+            <span class="date">2021 - 2025</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, a porro? Fugit quaerat quos soluta porro iusto magni alias reiciendis deserunt cum consequuntur reprehenderit corrupti illum, beatae a, molestiae tenetur?</p>
+            <div class="connectori">
+              <div class="circlei"></div>
+            </div>
+          </div>
+          <div class="item left">
+            <h4>Técnico en Equipos e Instalaciones Electromecánicas</h4>
+            <span class="house">E.E.T.P N 466 "Gral. Manuel N. Savio"</span>
+            <span class="date">2015 - 2020</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, a porro? Fugit quaerat quos soluta porro iusto
+              magni alias reiciendis deserunt cum consequuntur reprehenderit corrupti illum, beatae a, molestiae tenetur?</p>
+            <div class="connectori">
+              <div class="circlei"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col right">
+          <h3>Work Experience</h3>
+          <div class="item right">
+            <h4>English Tutor</h4>
+            <span class="house">Freelance</span>
+            <span class="date">2021 - present</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, a porro? Fugit quaerat quos soluta porro iusto
+              magni alias reiciendis deserunt cum consequuntur reprehenderit corrupti illum, beatae a, molestiae tenetur?</p>
+            <div class="connectord">
+              <div class="circled"></div>
+            </div>
+          </div>
+          <div class="item right">
+            <h4>Maths Tutor</h4>
+            <span class="house">Freelance</span>
+            <span class="date">2022 - present</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, a porro? Fugit quaerat quos soluta porro iusto
+              magni alias reiciendis deserunt cum consequuntur reprehenderit corrupti illum, beatae a, molestiae tenetur?</p>
+            <div class="connectord">
+              <div class="circled"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--PORTFOLIO SECTION-->
+  <section id="portfolio" class="portfolio">
+    <div class="section-content">
+      <h2>PORTFOLIO</h2>
+      <div class="gallery">
+        <div class="project">
+          <img src="img/p1.jpg" alt="">
+          <div class="overlay">
+            <h3>Creative Design</h3> <!--CAMBIAR POR ALGO MIO-->
+            <p>Photography</p>
+          </div>
+        </div>
+        <div class="project">
+          <img src="img/p2.jpg" alt="">
+          <div class="overlay">
+            <h3>Creative Design</h3> <!--CAMBIAR POR ALGO MIO-->
+            <p>Photography</p>
+          </div>
+        </div>
+        <div class="project">
+          <img src="img/p3.jpg" alt="">
+          <div class="overlay">
+            <h3>Creative Design</h3> <!--CAMBIAR POR ALGO MIO-->
+            <p>Photography</p>
+          </div>
+        </div>
+        <div class="project">
+          <img src="img/p4.jpg" alt="">
+          <div class="overlay">
+            <h3>Creative Design</h3> <!--CAMBIAR POR ALGO MIO-->
+            <p>Photography</p>
+          </div>
+        </div>
+        <div class="project">
+          <img src="img/p5.jpg" alt="">
+          <div class="overlay">
+            <h3>Creative Design</h3> <!--CAMBIAR POR ALGO MIO-->
+            <p>Photography</p>
+          </div>
+        </div>
+        <div class="project">
+          <img src="img/p6.jpg" alt="">
+          <div class="overlay">
+            <h3>Creative Design</h3> <!--CAMBIAR POR ALGO MIO-->
+            <p>Photography</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--CONTACT SECTION-->
+  <section id="contact" class="contact">
+    <div class="section-content">
+      <h2>CONTACTO</h2>
+      <div class="row">
+        <!--Form-->
+        <div class="col">
+          <input type="text" placeholder="Your Name">
+          <input type="text" placeholder="Telephone number">
+          <input type="text" placeholder="Email">
+          <input type="text" placeholder="Topic">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+          <button>
+            Send Message <i class="fa-solid fa-paper-plane fa-beat"></i>
+            <span class="overlay"></span>
+          </button>
+        </div>
+        <!--Contact information-->
+        <div class="col">
+          <img src="img/location.png" alt="">
+          <div class="info">
+            <ul>
+              <li>
+                <i class="fa-solid fa-location-dot"></i>
+                Rosario, Santa Fe, Argentina
+              </li>
+              <li>
+                <i class="fa-solid fa-mobile"></i>
+                +54 9 3415449567
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                luca.giniclc@gmail.com
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--FOOTER-->
+  <footer>
+    <a href="#home" class="up">
+      <i class="fa-solid fa-angles-up fa-bounce"></i>
+    </a>
+    <div class="network">
+      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="#"><i class="fa-brands fa-github"></i></a>
+      <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
